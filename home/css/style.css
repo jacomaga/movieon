@@ -83,7 +83,11 @@ html{
 .imgb{
     width: 100%;
 }
-
+.carousel-caption,.d-none,.d-md-block{
+    background-color: rgba(0, 0, 0, 0.226);
+    border-radius: 30px;
+    
+}
 #btassinar{
     height: max-content;
     border-radius: 7px;
@@ -114,6 +118,33 @@ html{
     padding-top: 20px;
 }
 
-html{
-    background-color: black;
+#topcontent{
+    margin-top: 20px;
+    background-color: rgba(251, 255, 25, 0.616);
+    color: black;
+    margin-left: 10%;
+    list-style: none;
+    margin-right: 10%;
+    border-radius: 6px;
+}
+#videos>li,#videos>ul{
+    list-style-type: none;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+li{
+    margin-left: 1%;
+}
+iframe{
+    border-radius: 20px;
+}
+#videos{
+    text-decoration: none;
+    list-style: none;
+}
+#videos>h3{
+    text-align: center;
 }
