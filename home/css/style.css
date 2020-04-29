@@ -1,0 +1,119 @@
+
+html{
+    background-color:black ;
+    
+}
+#container{
+    background-color: black;
+}
+#menu{
+    background-color: rgb(247, 231, 20);
+    display: inline-block;
+    width: 100%;    
+    
+    
+}
+#logo{
+    
+    margin-top:0.1%;
+}
+#label-logo{
+    font-family:  monospace;
+    font-size: 30px;
+    color:black;
+
+    
+}
+#itens{
+    margin-top: 2%; 
+    cursor: pointer;
+    border: none;
+    float:left;
+    background-color:rgb(247, 231, 20) ;
+    font-weight: bold;
+    margin-left: 2%;
+    
+    
+    
+}
+.menuitem{
+    color:black;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.menuitem:hover{
+    color:rgb(41, 41, 41);
+    text-decoration: none;
+}
+
+#img-logo{
+   float: left;
+   margin-left: 10%;
+   cursor: pointer;
+   
+    
+    
+}
+#login{
+    
+    float: right;
+    border-radius: 7px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    background-color: rgb(238, 235, 34);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    margin-top: 2%;
+    margin-bottom: 5px;
+    margin-right: 2%;
+    
+    padding: 5px 15px 5px 15px;
+    cursor: pointer;
+   
+    
+    
+}
+#login:hover{
+    border-color: rgb(245, 185, 20);
+    background-color:  black;
+    color: yellow;
+}
+.imgb{
+    width: 100%;
+}
+
+#btassinar{
+    height: max-content;
+    border-radius: 7px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    background-color: rgb(238, 235, 34);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    
+}
+#btassinar:hover{
+    border-color: rgb(245, 185, 20);
+    background-color:  black;
+    color: yellow;
+   
+}
+#plans{
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: rgba(255, 255, 255, 0.062);
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 360px;
+    padding-bottom: 50px;
+    color: white;
+    padding-top: 20px;
+}
+
+html{
+    background-color: black;
+}
