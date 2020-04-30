@@ -118,7 +118,7 @@ html{
     padding-top: 20px;
 }
 
-#topcontent{
+#toopcontent{
     margin-top: 20px;
     background-color: rgba(251, 255, 25, 0.616);
     color: black;
@@ -186,4 +186,15 @@ iframe{
   }
 .comentario{
     visibility: hidden;
+}
+
+#topcontent{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.carousel {
+    border-radius: 10px;
+    overflow: hidden;
+    
 }

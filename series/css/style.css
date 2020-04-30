@@ -182,3 +182,13 @@ li{
     border-radius: 30px;
 
   }
+#topcontent{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.carousel {
+    border-radius: 10px;
+    overflow: hidden;
+    
+}

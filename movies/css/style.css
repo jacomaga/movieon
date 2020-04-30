@@ -185,3 +185,13 @@ li{
   #lista-suspense{
       padding-bottom: 2%;
   }
+  #topcontent{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.carousel {
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
