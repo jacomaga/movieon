@@ -83,7 +83,7 @@ html{
 
 
 
-#topcontent{
+#area-filme{
     margin-top: 20px;
     background-color: rgba(251, 255, 25, 0.616);
     color: black;
@@ -91,4 +91,58 @@ html{
     list-style: none;
     margin-right: 10%;
     border-radius: 6px;
+}
+#imagem{
+    
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 8px;
+    border-color: yellow;
+    border-width: 4px;
+    border-style: solid;
+}
+#descricao{
+    margin-top: 30px;
+    width: ;
+}
+#filme{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+}
+iframe{
+    width: 600px;
+    height: 300px;
+    margin-bottom: 3%;
+    border-radius: 8px;
+    border-width: 5px;
+    border-color: yellow;
+    border-style: solid;    
+}
+#botao-assistir,#botao-voltar{
+    border-style: hidden;
+    background-color:  rgb(255, 209, 6);
+    border-radius: 8px;
+    width: max-content;
+    font-family: 'Poppins', sans-serif;
+    height: 5%;
+    font-weight: bold;
+    margin-bottom: 0.5%;
+    color: rgba(255, 72, 0, 0.781);
+}
+#botao-assistir:hover,#botao-voltar:hover{
+    background-color: rgba(255, 72, 0, 0.781);
+    border-color: rgb(184, 89, 25);
+    color: rgb(255, 209, 6);
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+#voltar{
+    margin-top: 30px;
+    margin-right: 20px;
+}
+p{
+    text-align: justify;
 }
