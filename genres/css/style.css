@@ -184,3 +184,6 @@ iframe{
   #lista-suspense{
       padding-bottom: 2%;
   }
+.comentario{
+    visibility: hidden;
+}
