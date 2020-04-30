@@ -1,115 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="css/style.css" rel="stylesheet">
-        <title>MovieOn - Entertainment in your Home</title>
-        <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" >
-        <script type="text/javascript" src="../bootstrap/js/jquery-3.5.0.min.js"></script>
-        <script type="text/javascript" src="../bootstrap/js/bootstrap.min.js" ></script>
-        <link href="../bootstrap/css/normalize.css" rel="stylesheet" type="text/css" >
-        <link rel="shortcut icon" type="image/x-icon" href="../edicoeselogos/favicon.ico">
-    </head>
-    <body>
-        <div id="container">
-            <div id="menu">
-              <div id="logo"><a href="../home/index.html"><img id="img-logo" src="images/popcorn.png"></img></a></div>                
-                <div id="itens">
-                   
-                    <a href="../sobre/index.html" class="menuitem">Sobre a empresa</a>
-                    <a href="../contatar/index.html" class="menuitem">Contatar</a>
-                    <a href="#topcontent" class="menuitem">Conteúdo em destaque</a>
-                    <a href="#plans" class="menuitem">Assinar</a>
 
-                </div>
-                <button id="login" href="#">Login</button>
-                
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/style.css" rel="stylesheet">
+  <title>MovieOn - Entertainment in your Home</title>
+  <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="../bootstrap/js/jquery-3.5.0.min.js"></script>
+  <script type="text/javascript" src="../bootstrap/js/bootstrap.min.js"></script>
+  <link href="../bootstrap/css/normalize.css" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" type="image/x-icon" href="../edicoeselogos/favicon.ico">
+</head>
+
+<body>
+  <div id="container">
+    <div id="menu">
+      <div id="logo"><a href="../home/index.html"><img id="img-logo" src="images/popcorn.png"></img></a></div>
+      <div id="itens">
+
+        <a href="../sobre/index.html" class="menuitem">Sobre a empresa</a>
+        <a href="../contatar/index.html" class="menuitem">Contatar</a>
+        <a href="#topcontent" class="menuitem">Conteúdo em destaque</a>
+        <a href="#plans" class="menuitem">Assinar</a>
+
+      </div>
+      <button id="login" onclick="location.href='../movies/index.html'">Login</button>
+
+    </div>
+    <section id="featured">
+      <div id="featuredcontent" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#featuredcontent" data-slide-to="0" class="active"></li>
+          <li data-target="#featuredcontent" data-slide-to="1"></li>
+          <li data-target="#featuredcontent" data-slide-to="2"></li>
+          <li data-target="#featuredcontent" data-slide-to="3"></li>
+          <li data-target="#featuredcontent" data-slide-to="4"></li>
+          <li data-target="#featuredcontent" data-slide-to="5"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="imgb d-block  img-fluid" src="images/movie01.png" alt="Saving Private Ryan ">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Featured Movie</h2>
+              <p>Saving Private Ryan</p>
             </div>
-            <section id="featured">
-                <div id="featuredcontent" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                      <li data-target="#featuredcontent" data-slide-to="0" class="active"></li>
-                      <li data-target="#featuredcontent" data-slide-to="1"></li>
-                      <li data-target="#featuredcontent" data-slide-to="2"></li>
-                      <li data-target="#featuredcontent" data-slide-to="3"></li>
-                      <li data-target="#featuredcontent" data-slide-to="4"></li>
-                      <li data-target="#featuredcontent" data-slide-to="5"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img class="imgb d-block  img-fluid" src="images/movie01.png" alt="Saving Private Ryan ">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h2>Featured Movie</h2>
-                            <p>Saving Private Ryan</p>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <img class="imgb d-block  img-fluid" src="images/movie02.png" alt="The pianist">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h2>Featured Movie</h2>
-                            <p>The pianist</p>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <img class="imgb d-block  img-fluid" src="images/movie03.png" alt="Third slide">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h2>Featured Movie</h2>
-                            <p>The terminal</p>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <img class="imgb d-block  img-fluid" src="images/serie01.png" alt="Third slide">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h2>Featured Serie</h2>
-                            <p>The Office</p>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <img class="imgb d-block  img-fluid" src="images/serie02.png" alt="Third slide">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h2>Featured Serie</h2>
-                            <p>How I Met Your Mother</p>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <img class="imgb d-block  img-fluid" src="images/serie03.png" alt="Third slide">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h2>Featured Serie</h2>
-                            <p>The exorcist</p>
-                        </div>
-                      </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#featuredcontent" role="button" data-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#featuredcontent" role="button" data-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Next</span>
-                    </a>
-                </div>    
-            </section>
-            <div id="topcontent">
-                
-                <div id="videos">
-                  <h3>Série e filme em destaque</h3>
-                  <ul>
-                      <li><iframe width="300" height="200" src="https://www.youtube.com/embed/C8-4jMTOUJI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
-                      <li><iframe width="300" height="200" src="https://www.youtube.com/embed/BFwGqLa_oAo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>  
-                  </ul>
-                </div>
+          </div>
+          <div class="carousel-item">
+            <img class="imgb d-block  img-fluid" src="images/movie02.png" alt="The pianist">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Featured Movie</h2>
+              <p>The pianist</p>
             </div>
-            <div id="plans">
-                <div id="valueinfo">
-                    <div id ="planos">
-                        <h1>Quer ter acesso a milhares de filmes e séries?</h1>
-                        <p> Assine já por R$9,99 ao mês!</p>
-                        <button id="btassinar">Assinar!</button>
-                    </div>
-                </div>
+          </div>
+          <div class="carousel-item">
+            <img class="imgb d-block  img-fluid" src="images/movie03.png" alt="Third slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Featured Movie</h2>
+              <p>The terminal</p>
             </div>
+          </div>
+          <div class="carousel-item">
+            <img class="imgb d-block  img-fluid" src="images/serie01.png" alt="Third slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Featured Serie</h2>
+              <p>The Office</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="imgb d-block  img-fluid" src="images/serie02.png" alt="Third slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Featured Serie</h2>
+              <p>How I Met Your Mother</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="imgb d-block  img-fluid" src="images/serie03.png" alt="Third slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Featured Serie</h2>
+              <p>The exorcist</p>
+            </div>
+          </div>
         </div>
-        
-    </body>
+        <a class="carousel-control-prev" href="#featuredcontent" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#featuredcontent" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+    <div id="topcontent">
+
+      <div id="videos">
+        <h3>Série e filme em destaque</h3>
+        <ul>
+          <li><iframe width="300" height="200" src="https://www.youtube.com/embed/C8-4jMTOUJI" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </li>
+          <li><iframe width="300" height="200" src="https://www.youtube.com/embed/BFwGqLa_oAo" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="plans">
+      <div id="valueinfo">
+        <div id="planos">
+          <h1>Quer ter acesso a milhares de filmes e séries?</h1>
+          <p> Assine já por R$9,99 ao mês!</p>
+          <button id="btassinar">Assinar!</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
 </html>

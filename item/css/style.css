@@ -54,7 +54,7 @@ html{
 #img-logo:hover{
     opacity: 60%;
 }
-#login{
+#logout{
     
     float: right;
     border-radius: 7px;
@@ -75,54 +75,20 @@ html{
     
     
 }
-#login:hover{
+#logout:hover{
     border-color: rgb(245, 185, 20);
     background-color:  black;
     color: yellow;
 }
-#formulario{
-    margin-left: 30%;
-    margin-right: 30%;
-    display: flex;
-    flex-direction: column;
-    background-color: yellow;
-    border-radius: 10px;
-    border-color: rgba(0, 0, 0, 0.616);
-    border-width: 5px;
-    border-style: groove;
-    margin-top: 1%;
-    font-family: 'Baloo Tamma 2', cursive;
-}
-#formulario > label, #formulario>input, #formulario>textarea{
-    margin-top: 1%;
-    margin-left: 30%;
-    margin-right: 30%;
 
 
-}
-#formulario >input,textarea{
-    border-radius: 8px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: rgba(0, 0, 0, 0.616);
-}
-#title{
-    text-align: center;
-}
-#enviar{
-    height: max-content;
-    margin-bottom: 2%;
-    border-style: none;
-    border-color:rgb(247, 231, 20);
-    background-color: rgb(245, 185, 20);
-    border-radius: 3px;
-    width: 20%;
-    align-self: center;
-    cursor:pointer;
-    padding-top: 0.5%;
-}
-#enviar:hover{
-    background-color: rgb(247, 231, 20);
-    border-color: rgb(245, 185, 20);
-    
+
+#topcontent{
+    margin-top: 20px;
+    background-color: rgba(251, 255, 25, 0.616);
+    color: black;
+    margin-left: 10%;
+    list-style: none;
+    margin-right: 10%;
+    border-radius: 6px;
 }

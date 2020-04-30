@@ -54,6 +54,9 @@ html{
     
     
 }
+#img-logo:hover{
+    opacity: 60%;
+}
 #login{
     
     float: right;

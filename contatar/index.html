@@ -1,45 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="css/style.css" rel="stylesheet">
-        <title>MovieOn - Entertainment in your Home</title>
-        <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" >
-        <script type="text/javascript" src="../bootstrap/js/jquery-3.5.0.min.js"></script>
-        <script type="text/javascript" src="../bootstrap/js/bootstrap.min.js" ></script>
-        <link href="../bootstrap/css/normalize.css" rel="stylesheet" type="text/css" >
-        <link rel="shortcut icon" type="image/x-icon" href="../edicoeselogos/favicon.ico">
-        <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <div id="container">
-            <div id="menu">
-              <div id="logo"><a href="../home/index.html"><img id="img-logo" src="images/popcorn.png"></img></a></div>                
-                <div id="itens">
-                   
-                    <a href="../sobre/index.html" class="menuitem">Sobre a empresa</a>
-                    <a href="../contatar/index.html" class="menuitem">Contatar</a>
-                    <a href="../home/index.html#topcontent" class="menuitem">Conteúdo em destaque</a>
-                    <a href="../home/index.html#plans" class="menuitem">Assinar</a>
-                 
-                </div>
-                <button id="login" href="#">Login</button>
-                
-            </div>
-            <div id="contatar">
-                <form id="formulario">
-                    <label id="title"><h1>Entrar em contato </h1></label>
-                    <label>Nome:</label><input type="text" class="contatar">
-                    <label>E-mail:</label><input type="text" class="contatar">
-                    <textarea class="contatar" placeholder="Insira sua mensagem aqui"></textarea>
-                    <input type="button" value="Enviar" id="enviar">
 
-                </form>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <title>MovieOn - Entertainment in your Home</title>
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../bootstrap/js/jquery-3.5.0.min.js"></script>
+    <script type="text/javascript" src="../bootstrap/js/bootstrap.min.js"></script>
+    <link href="../bootstrap/css/normalize.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" type="image/x-icon" href="../edicoeselogos/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <div id="menu">
+            <div id="logo"><a href="../home/index.html"><img id="img-logo" src="images/popcorn.png"></img></a></div>
+            <div id="itens">
+
+                <a href="../sobre/index.html" class="menuitem">Sobre a empresa</a>
+                <a href="../contatar/index.html" class="menuitem">Contatar</a>
+                <a href="../home/index.html#topcontent" class="menuitem">Conteúdo em destaque</a>
+                <a href="../home/index.html#plans" class="menuitem">Assinar</a>
 
             </div>
-          
+            <button id="login" onclick="location.href='../movies/index.html'">Login</button>
+
         </div>
-        
-    </body>
+        <div id="contatar">
+            <form id="formulario">
+                <label id="title">
+                    <h1>Entrar em contato </h1>
+                </label>
+                <label>Nome:</label><input type="text" class="contatar">
+                <label>E-mail:</label><input type="text" class="contatar">
+                <textarea class="contatar" placeholder="Insira sua mensagem aqui"></textarea>
+                <input type="button" value="Enviar" id="enviar">
+
+            </form>
+
+        </div>
+
+    </div>
+
+</body>
+
 </html>
